@@ -12,7 +12,7 @@ Welcome to Pulse – where your digital world comes to life.
 
 ### Site URL
 
-This repository holds the frontend code and it has been deployed on Netlify. [Click here](https://main--quickping.netlify.app/) to visit the live site.
+This repository holds the frontend code and it has been deployed on Netlify. [Click here](https://thepulse.netlify.app/) to visit the live site.
 
 ## Table of contents
 
