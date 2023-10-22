@@ -67,8 +67,6 @@ const modalStyle = {
   p: 4,
 };
 
-const IMAGEKITIO_PUBLIC_KEY = "public_4acFW+bY8EFRt2LbrdVfdem+MHo=";
-
 export default function Register() {
   const [post, setPost] = useState(null);
   // imagekitio cloud
@@ -202,7 +200,7 @@ export default function Register() {
               base64.length > 0
                 ? base64
                 : "https://xsgames.co/randomusers/avatar.php?g=pixel",
-            publicKey: IMAGEKITIO_PUBLIC_KEY,
+            publicKey: process.env.IMAGEKITIO_PUBLIC_KEY,
             signature: res.data.result.signature,
             expire: res.data.result.expire,
             token: res.data.result.token,
