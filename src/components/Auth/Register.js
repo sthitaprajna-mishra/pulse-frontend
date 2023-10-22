@@ -200,7 +200,7 @@ export default function Register() {
               base64.length > 0
                 ? base64
                 : "https://xsgames.co/randomusers/avatar.php?g=pixel",
-            publicKey: process.env.IMAGEKITIO_PUBLIC_KEY,
+            publicKey: process.env.REACT_APP_IMAGEKITIO_PUBLIC_KEY,
             signature: res.data.result.signature,
             expire: res.data.result.expire,
             token: res.data.result.token,
