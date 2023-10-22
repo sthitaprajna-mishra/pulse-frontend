@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Pulse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pulse, an innovative and dynamic social media web application, provides users with a multifaceted platform for seamless and meaningful online interactions. With an array of engaging features, Pulse empowers individuals to craft and share posts, cultivate connections by adding friends, engage in private messaging, and curate their distinctive profiles to reflect their unique digital persona.
 
-## Available Scripts
+With the ability to craft and share posts, Pulse encourages authentic self-expression, sparking discussions, and enabling users to share their stories, opinions, and experiences with a diverse and engaged community. The comprehensive friend management system allows you to curate your social circle, making it easy to connect with both new and existing friends, while our private messaging feature ensures secure and personalized communication.
 
-In the project directory, you can run:
+Pulse is not just a social media platform; it's a digital ecosystem that empowers you to create, connect, and share in a way that's meaningful to you.
 
-### `npm start`
+Welcome to Pulse – where your digital world comes to life.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Frontend Repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Site URL
 
-### `npm test`
+This repository holds the frontend code and it has been deployed on Netlify. [Click here](https://main--quickping.netlify.app/) to visit the live site.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of contents
 
-### `npm run build`
+- [Overview](#overview)
+  - [Description](#description)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Insights](#insights)
+  - [Scope for Improvement](#scope-for-improvement)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Overview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Description
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Users will be able to -
 
-### `npm run eject`
+- **Create and Share Posts:** Our platform empowers users to craft and distribute content, fostering engaging discussions and enabling the seamless sharing of experiences, opinions, and stories with a diverse and active community.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Tailored Content Curation:** Our platform boasts a state-of-the-art algorithm meticulously designed to curate a diverse and engaging content feed. This algorithm seamlessly blends the latest updates, posts from your friends, and popular content to provide you with a well-rounded and captivating user experience.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Profile Customization:** Personalize your digital identity with a user-friendly interface, where you can set a profile picture and background image that reflect your unique persona, giving your online presence a distinctive touch.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Draft Management:** Our intuitive system allows you to create, save, and edit drafts, offering the flexibility to fine-tune your thoughts before sharing them with your network. You can also delete drafts if they no longer align with your digital narrative.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Friendship Management:** Connect with others by sending friend requests, manage your connections by accepting or rejecting requests, ensuring your network aligns with your preferences and interests.
 
-## Learn More
+- **Real-time Notifications:** Stay informed with instant notifications when someone sends you a friend request, or when your friend requests are accepted or declined. Never miss a beat in your social interactions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Engagement Features:** Interact with posts by liking and leaving insightful comments, creating meaningful dialogues, and enhancing the sense of community. This interaction extends to comments, where you can also express your thoughts and opinions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Notification Center:** Receive timely notifications when someone likes or comments on your posts or comments, keeping you updated on the engagement your content generates.
 
-### Code Splitting
+- **Stay Informed:** Access the latest news and headlines conveniently within our platform, ensuring you're always well-informed. Refresh the news feed at your convenience to receive the most up-to-date information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## My process
 
-### Analyzing the Bundle Size
+### Built with
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React
+- Material UI
+- SignalR
+- .NET Core 7 Web API
+- Microsoft SQL Server
+- Microsoft Azure
+- Node
+- Express
 
-### Making a Progressive Web App
+### Insights
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This was one of the most difficult projects I've completed. It covered almost all aspects of web development, from frontend to cloud deployment.
 
-### Advanced Configuration
+**Frontend:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- I used Material UI for most of the components used in front-end.
 
-### Deployment
+**Backend:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Main Backend Server:** - The backend logic is written in C# using .NET Core 7 Web API.
 
-### `npm run build` fails to minify
+- **Email Server:** - I have a separate server running to send emails during app registration written using Express.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Scope for Improvement
+
+- Add an ability to incorporate emoticons and GIFs in posts and conversations. Addition of images will also enhance the overall experience.
+
+- Social media sign-ins can be introduced.
+
+## Author
+
+- Frontend Mentor - [@sthitaprajna-mishra](https://www.frontendmentor.io/profile/sthitaprajna-mishra)
+- LinkedIn - [@sthitaprajna-mishra](https://www.linkedin.com/in/sthitaprajna-mishra-b63940153/)

@@ -1,0 +1,24 @@
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-icon {
+  animation: rotate360 2s linear infinite;
+}
+
+/* Disable textarea resizing */
+.MuiTextarea-root {
+  resize: none;
+}
+
+.hidecontent {
+  white-space: nowrap; /* Prevents line breaks */
+  overflow: hidden; /* Hides overflow text */
+  text-overflow: ellipsis; /* Adds ellipsis (...) for overflow text */
+  max-width: 100%; /* Ensures text fits within container */
+}
